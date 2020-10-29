@@ -15,3 +15,6 @@
 2. Add /client to ignore client dir - `Touch .gitignore`
 3. Create the client directory - `vue create client` 
 4. Commit to repo - `git add . && git commit -m "Backend setup"`
+5. cd into client dir and run server - `npm run serve`
+
+In the *app.vue* file, within the template tags, the tag `<PostComponent>` is added. This is a place holder for *PostComponent.vue* and it is brought in via the `<script>` section with the line: `import PostComponent.vue from './components/PostComponent.vue';`
